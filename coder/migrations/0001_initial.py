@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('email', models.EmailField(max_length=254)),
                 ('nro_legajo', models.IntegerField(unique=True)),
                 ('fecha_de_creacion', models.DateTimeField(auto_now_add=True)),
-                ('fecha_de_nacimiento', models.DateField(null=True)),
+                
             ],
         ),
     ]
